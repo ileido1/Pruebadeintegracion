@@ -72,14 +72,14 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="decrementaCont"
+        android:text="-"
         android:textSize="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:text="-" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/reset"

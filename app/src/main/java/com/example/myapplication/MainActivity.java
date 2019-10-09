@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         contador--;
         if (contador<0){
             EditText hola = (EditText)findViewById(R.id.editText2);
-            hola.setText("hola");
+            hola.setText("hola Yonnie");
         }else {
             Textoresultado.setText("" + contador);
         }
